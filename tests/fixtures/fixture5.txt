@@ -1,0 +1,1 @@
+[[&quot;ScrollSpy&quot;,{&quot;delay&quot;:500,&quot;color&quot;:&quot;#ff00ff&quot;}],[&quot;TabbedNavigation&quot;,{&quot;responsive&quot;:true,&quot;color&quot;:&quot;#ff0000&quot;}]]
