@@ -20,9 +20,15 @@ class EncodeOldTest extends TestCase
 
     public function testCanEncodeASinglePlugin()
     {
-        $this->assertEquals($this->getFixtureContent('fixture1'), $this->pluginHelper->encodePluginSettings('ScrollSpy'));
+        $this->assertEquals(
+            $this->getFixtureContent('fixture1'),
+            $this->pluginHelper->encodePluginSettings('ScrollSpy')
+        );
 
-        $this->assertEquals('["ScrollSpy"]', $this->pluginHelper->encodePluginSettings(false, 'ScrollSpy'));
+        $this->assertEquals(
+            '["ScrollSpy"]',
+            $this->pluginHelper->encodePluginSettings(false, 'ScrollSpy')
+        );
 
         $this->assertEquals(
             $this->getFixtureContent('fixture2'),
